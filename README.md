@@ -26,12 +26,12 @@ FRONTEND
 BACKEND
 - PHP
 - MySQL
-- -NODE JS
+- NODE JS
 
 ## Autor:
 - Nombre: Roberto Antonio Paredes Camacho
 - Email: robdev0695@gmail.com
-- GitHub: [tu_usuario](https://github.com/tu_usuario)
+- GitHub: [Rob-Dev0695](https://github.com/Rob-Dev0695)
 
 ## Licencia:
 Este proyecto está bajo la Licencia MIT. 
