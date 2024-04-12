@@ -1,9 +1,9 @@
 .menu-dropdown{
-    @apply absolute w-[200px] px-3 py-5 top-[100px] right-[20px] border-r-slate-300 bg-black
+    @apply absolute w-[200px] px-3 py-5 top-[65px] right-[20px] border-solid border-2 border-slate-500 bg-white rounded-lg text-slate-500
 }
 
 .menu-dropdown::before{
-    @apply content-none absolute top-[-5px] right-[20px] h-[20px] w-[20px] transform rotate-45
+    @apply absolute top-[-5px] right-[20px] h-[20px] w-[20px] transform rotate-45
 }
 
 .menu-dropdown.active{
@@ -15,9 +15,13 @@
 }
 
 .dropdown-list{
-    @apply px-3 py-0 border-t-slate-400 border-solid text-slate-400 flex justify-between items-center
+    @apply flex mx-12 my-auto items-center gap-5
 }
 
-.dropdown-list:hover{
-    @apply cursor-pointer text-slate-800
+.dropdown-a{
+    @apply  ml-[3px] transition duration-500 my-2 cursor-pointer
+}
+
+.dropdown-a:hover{
+    @apply text-red-500
 }
