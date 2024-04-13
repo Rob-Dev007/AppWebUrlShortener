@@ -15,13 +15,14 @@
 }
 
 .dropdown-list{
-    @apply flex mx-12 my-auto items-center gap-5
+    @apply flex mx-12 my-auto items-center gap-5 
+}
+
+.dropdown-list:hover{
+    @apply text-red-500 
 }
 
 .dropdown-a{
     @apply  ml-[3px] transition duration-500 my-2 cursor-pointer
 }
 
-.dropdown-a:hover{
-    @apply text-red-500
-}
