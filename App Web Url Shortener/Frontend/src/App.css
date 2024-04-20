@@ -26,3 +26,7 @@
     @apply  ml-[3px] transition duration-500 my-2 cursor-pointer
 }
 
+.btn{
+    @apply rounded-lg p-3 bg-slate-500 mx-5 my-20 text-white font-bold
+}
+
